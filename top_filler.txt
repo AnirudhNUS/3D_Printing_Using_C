@@ -1,0 +1,18 @@
+T0
+M82 ;absolute extrusion mode
+
+G92 E0
+M109 S200
+G280 S1
+G0 Z20.001
+G1 F2700 E-6.5
+
+M107
+M204 S429
+M205 X20 Y20
+G1 F600 Z2.2
+M204 S1000
+G1 F600 Z0.2
+G1 F2700 E0
+
+;-------- End of Top Filler -------------

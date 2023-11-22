@@ -1,0 +1,2 @@
+n	length	breadth	xcoord	ycoord	ydist	height	p-width
+4	200	6	10	10	20	6	0.2
